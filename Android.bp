@@ -152,6 +152,24 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 
+prebuilt_rfsa {
+    name: "libQnnHtpV69",
+    filename: "libQnnHtpV69.so",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV69.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "libQnnHtpV69Skel",
+    filename: "libQnnHtpV69Skel.so",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV69Skel.so",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
 android_app_import {
     name: "MiuiCamera",
     owner: "xiaomi",
